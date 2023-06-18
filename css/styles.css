@@ -11,8 +11,23 @@ button {
 }
 
 a {
-  text-decoration: none;
-  color: currentColor;
+    text-decoration: none;
+    color: currentColor;
+}
+
+p {
+    margin: 0;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
 }
 
 :root {
@@ -36,6 +51,13 @@ a {
     list-style: none;
 }
 
+.container {
+width: 1158px;
+}
+
+.section {
+
+}
 /**
   |============================
   | Header styles
@@ -55,6 +77,10 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
   }
 
 .studio-dark {
@@ -66,7 +92,11 @@ a {
 }
 
 .header-list {
-
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
 }
 
 .header-item {
@@ -87,7 +117,7 @@ a {
     color: #404BBF;
 }
 .address {
-    font-style: normal;
+ 
 }
 
 .header-list {}
@@ -110,10 +140,15 @@ a {
   | Hero styles
   |============================
 */
-.section {}
+
 
 .hero {
     background-color: var(--hero-background);
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
 }
 
 .hero-title {
@@ -149,7 +184,7 @@ a {
   |============================
 */
 
-.section {}
+
 
 .filter {}
 
@@ -180,7 +215,7 @@ a {
   | Feautures styles
   |============================
 */
-.section {}
+
 
 .feautures {}
 
@@ -211,7 +246,7 @@ a {
   | Webstudio styles
   |============================
 */
-.section {}
+
 
 .webstudio {}
 
@@ -238,9 +273,7 @@ a {
   | Team styles
   |============================
 */
-.section {
-  
-}
+
 
 .team {
     background-color: #F4F4FD
