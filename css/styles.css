@@ -18,7 +18,9 @@ a {
 p {
     margin: 0;
 }
-
+ img {
+    display: block;
+ }
 
 ul {
     margin: 0;
@@ -52,7 +54,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .container {
-width: 1158px;
+  
 }
 
 .section {
@@ -65,6 +67,7 @@ width: 1158px;
 */
 .header {
     background-color: #ffffff;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-nav {}
