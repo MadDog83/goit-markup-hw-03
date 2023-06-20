@@ -262,10 +262,11 @@ h1,h2,h3,h4,h5,h6 {
     gap: 24px;
     margin-right: 24px;
     margin-right: 0; 
+    width: calc((100% - 72px) / 4);
 }
 
 .feautures-item {
-    width: calc((100% - 72px) / 4);
+
 }
 
 .feautures-title {
