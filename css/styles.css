@@ -243,10 +243,10 @@ h1,h2,h3,h4,h5,h6 {
     display: flex;
     gap: 24px;
     margin-right: 24px;
-    margin-right: 0;
+    margin-right: 0; 
 }
 
-.feautures-item {
+.item {
     width: calc((100% - 72px) / 4);
 }
 
@@ -311,11 +311,10 @@ h1,h2,h3,h4,h5,h6 {
     gap: 24px;
     margin-right: 24px;
     margin-right: 0;
-    width: calc((100% - 48px) / 3);
 }
 
 .webstudio-item {
-    
+    width: calc((100% - 48px) / 3);
 }
 
 .webstudio-image {}
@@ -360,13 +359,15 @@ h1,h2,h3,h4,h5,h6 {
 .team-image {}
 
 .designers-team-title {
-     font-family: "Roboto",sans-serif;
+    font-family: "Roboto",sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
     background-color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 8px
   }
 
 .team-prgrph {
@@ -376,6 +377,7 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 /**
