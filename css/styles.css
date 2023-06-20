@@ -1,9 +1,16 @@
-/*Common styles*/
+/**
+  |============================
+  | Common styles
+  |============================
+*/
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
   }
+
+    /*Reset*/
 
 button {
     font-family: "Roboto" sans-serif;
@@ -13,10 +20,6 @@ button {
 a {
     text-decoration: none;
     color: currentColor;
-}
-
-p {
-    margin: 0;
 }
 
 img {
@@ -29,7 +32,7 @@ ul {
     list-style-type: none;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,p {
     margin: 0;
 }
 
@@ -39,11 +42,9 @@ h1,h2,h3,h4,h5,h6 {
   --hero-background: #2E2F42;
   --title-background: #f4f4fd;
  }
-/**
-  |============================
-  | Custom styles
-  |============================
-*/
+
+    /*Base styles*/
+
 
 .link {
     text-decoration: none;
@@ -89,11 +90,12 @@ h1,h2,h3,h4,h5,h6 {
 */
 .header {
     background-color: #ffffff;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
 }
+
 .header-container {
     display: flex;
-
+    padding: 24px 0 24px;
 }
 
 .header-nav {
@@ -178,7 +180,6 @@ h1,h2,h3,h4,h5,h6 {
 
 .hero {
     background-color: var(--hero-background);
-    position: absolute;
 }
 
 .hero-container {
