@@ -119,12 +119,11 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-link {
     color:#2e2f42;
+    padding: 24px 0;
 }
 
 .header-link:hover,
