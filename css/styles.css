@@ -246,7 +246,7 @@ h1,h2,h3,h4,h5,h6 {
     margin-right: 0; 
 }
 
-.item {
+.feautures-item {
     width: calc((100% - 72px) / 4);
 }
 
@@ -420,9 +420,13 @@ h1,h2,h3,h4,h5,h6 {
 */
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
-.footer-logo {}
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 .footer-prgrph {
     font-family: "Roboto",sans-serif;
